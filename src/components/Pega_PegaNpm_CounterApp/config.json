@@ -1,0 +1,73 @@
+{
+    "name": "Pega_PegaNpm_CounterApp",
+    "label": "CounterApp",
+    "description": "CounterApp",
+    "organization": "Pega",
+    "version": "0.0.1",
+    "library": "PegaNpm",
+    "componentKey": "Pega_PegaNpm_CounterApp",
+    "type": "Field",
+    "subtype": "Text",
+    "subtypeLabel": "Text",
+    "properties": [
+        {
+            "name": "label",
+            "label": "Label value",
+            "format": "TEXT"
+        },
+        {
+            "name": "placeholder",
+            "label": "Placeholder",
+            "format": "TEXT"
+        },
+        {
+            "name": "visibility",
+            "label": "Visible",
+            "format": "VISIBILITY"
+        },
+        {
+            "name": "disabled",
+            "label": "Disabled",
+            "format": "DISABLED"
+        },
+        {
+            "name": "required",
+            "label": "Required",
+            "format": "REQUIRED"
+        },
+        {
+            "label": "Advanced",
+            "format": "GROUP",
+            "collapsible": true,
+            "properties": [
+                {
+                    "name": "testId",
+                    "label": "Test ID",
+                    "format": "TEXT",
+                    "ignorePattern": "[^-_\\p{N}\\p{L}]",
+                    "includeAnnotations": false
+                }
+            ]
+        },
+        {
+            "format": "LABEL",
+            "label": "About",
+            "name": "PegaAboutLabel",
+            "variant": "h3"
+        },
+        {
+            "format": "LABEL",
+            "label": "Pega_PegaNpm 0.0.1, Mon Mar 02 2026, 25.1.2-397",
+            "name": "PegaAboutData",
+            "variant": "primary"
+        }
+    ],
+    "defaultConfig": {
+        "detailFVLItem": true,
+        "isFormWidth": false,
+        "isContainerWidth": false
+    },
+    "buildDate": "2026-03-02T13:21:37.739Z",
+    "infinityVersion": "25.1.2-397",
+    "packageCosmosVersion": "8.9.2"
+}
