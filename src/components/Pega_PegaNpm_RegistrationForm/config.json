@@ -1,11 +1,11 @@
 {
-    "name": "Pega_PegaNpm_SnakeGame",
-    "label": "SnakeGame",
-    "description": "SnakeGame",
+    "name": "Pega_PegaNpm_RegistrationForm",
+    "label": "RegistrationForm",
+    "description": "RegistrationForm",
     "organization": "Pega",
     "version": "Pega_PegaNpm_RegistrationForm",
     "library": "PegaNpm",
-    "componentKey": "Pega_PegaNpm_SnakeGame",
+    "componentKey": "Pega_PegaNpm_RegistrationForm",
     "type": "Widget",
     "subtype": [
         "PAGE",
@@ -77,7 +77,7 @@
         "resolveOperator": "@USER .pyResolvedUserID",
         "resolveDateTime": "@P .pyResolvedTimestamp"
     },
-    "buildDate": "2026-03-04T17:41:14.713Z",
+    "buildDate": "2026-03-04T17:49:48.491Z",
     "infinityVersion": "25.1.2-397",
     "packageCosmosVersion": "8.9.2"
 }

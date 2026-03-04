@@ -75,8 +75,10 @@ export default styled.div`
 
   .game-over {
     text-align: center;
-    margin-top: 15px;
-    color: white;
+    margin-top: 20px;
+    color: orangered;
+    font-weight: bold;
+     animation: gameOverFlash 1s infinite;
   }
 
   button {
